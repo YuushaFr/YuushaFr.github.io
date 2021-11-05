@@ -129,17 +129,20 @@ body{
     animation-duration: 7s;
 }
 
-.spot {
+.git-btn {
   position: absolute;
+  top: 0px;
+}
+
+.spot {
+  position: relative;
   width: 100%;
   height: 100%;
-  top: 50vh;
-  left: 50vh;
 }
 
 .svg-wrapper {
   margin-top: 0;
-  position: absolute;
+  position: relative;
   width: 150px;
   /*make sure to use same height/width as in the html*/
   height: 40px;
@@ -156,7 +159,7 @@ body{
   stroke: #06D6A0;
 }
 
-#sape {
+#shape {
   stroke-width: 6px;
   fill: transparent;
   stroke: #009FFD;
@@ -170,7 +173,7 @@ body{
   text-align: center;
 }
 
-#utton1 a {
+#button1 a {
   color: white;
   text-decoration: none;
   font-weight: 100;
