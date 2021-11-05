@@ -7,7 +7,6 @@ body{
     
 }
 
-
 .context {
     width: 100%;
     position: absolute;
@@ -138,8 +137,8 @@ body{
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
+  top: 50vh;
+  left: 50vh;
 }
 
 .svg-wrapper {
