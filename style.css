@@ -156,6 +156,11 @@ body{
   stroke: #06D6A0;
 }
 
+.button1 {
+  margin-top: -35px;
+  text-align: center;
+}
+
     
 @keyframes animate {
 
