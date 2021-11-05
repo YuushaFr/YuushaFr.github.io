@@ -20,7 +20,6 @@ body{
 }
   
 .area{
-    background: #000000;  
     background: -webkit-linear-gradient(to top, #000000, #353535);  
     background: linear-gradient(to top, #000000, #453030);
     width: 100%;
@@ -140,7 +139,7 @@ body{
 
 .svg-wrapper {
   margin-top: 0;
-  position: relative;
+  position: absolute;
   width: 150px;
   /*make sure to use same height/width as in the html*/
   height: 40px;
