@@ -149,14 +149,14 @@ body{
   margin-right: 5px
 }
 
-.svg-wrapper:hover .shape {
+.svg-wrapper:hover #shape {
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #06D6A0;
 }
 
-.shape {
+#sape {
   stroke-width: 6px;
   fill: transparent;
   stroke: #009FFD;
@@ -165,12 +165,12 @@ body{
   transition: 1s all ease;
 }
 
-.button1 {
+#button1 {
   margin-top: -35px;
   text-align: center;
 }
 
-.button1 a {
+#utton1 a {
   color: white;
   text-decoration: none;
   font-weight: 100;
