@@ -149,7 +149,7 @@ body{
   margin-right: 5px
 }
 
-.svg-wrapper:hover shape {
+.svg-wrapper:hover .shape {
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
