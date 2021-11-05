@@ -149,11 +149,20 @@ body{
   margin-right: 5px
 }
 
-.svg-wrapper:hover #shape {
+.svg-wrapper:hover shape {
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #06D6A0;
+}
+
+.shape {
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: #009FFD;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;
 }
 
 .button1 {
