@@ -129,58 +129,6 @@ body{
     animation-duration: 7s;
 }
 
-.git-btn {
-  position: absolute;
-  top: 0px;
-}
-
-.spot {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.svg-wrapper {
-  margin-top: 0;
-  position: relative;
-  width: 150px;
-  /*make sure to use same height/width as in the html*/
-  height: 40px;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 5px;
-  margin-right: 5px
-}
-
-.svg-wrapper:hover #shape {
-  stroke-dasharray: 50 0;
-  stroke-width: 3px;
-  stroke-dashoffset: 0;
-  stroke: #06D6A0;
-}
-
-#shape {
-  stroke-width: 6px;
-  fill: transparent;
-  stroke: #009FFD;
-  stroke-dasharray: 85 400;
-  stroke-dashoffset: -220;
-  transition: 1s all ease;
-}
-
-#button1 {
-  margin-top: -35px;
-  text-align: center;
-}
-
-#button1 a {
-  color: white;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.1em;
-}
-
-    
 @keyframes animate {
 
     0%{
